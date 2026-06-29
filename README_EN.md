@@ -173,3 +173,10 @@ Both figures show the isosurface of band 1 (VBM) at the Gamma point. The agreeme
 - **Mapping validated scope**: this mapping was validated on Si DZP; other elements / basis sets may need re-validation
   - `l = 0, 1, 2` are covered; `l >= 3` is not handled
 - **Occupation**: written as 0 (placeholder), not read from `info.json` or `wavefunction_ao.h5`
+
+-----
+ABACUS get `WFC_NAO_K1.txt`
+```
+calculation     scf
+out_wfc_lcao    1
+```

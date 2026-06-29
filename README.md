@@ -174,3 +174,8 @@ flowchart LR
 - **Occupation**：输出写为 0（占位符），未从 `info.json` 或 `wavefunction_ao.h5` 读取
 
 ---
+ABACUS 获取 `WFC_NAO_K1.txt`
+```
+calculation     scf
+out_wfc_lcao    1
+```
