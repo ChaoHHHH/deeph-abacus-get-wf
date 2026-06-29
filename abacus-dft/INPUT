@@ -1,0 +1,13 @@
+INPUT_PARAMETERS
+suffix          Si
+orbital_dir     ./
+pseudo_dir      ./
+calculation     get_wf
+basis_type      lcao
+ecutwfc         100
+scf_thr         1e-8
+# out_mat_hs2     1
+# cal_force       1
+# cal_stress      1
+# out_wfc_lcao    1
+out_wfc_norm    1
