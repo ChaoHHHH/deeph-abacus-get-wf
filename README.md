@@ -131,6 +131,7 @@ flowchart LR
    calculation     get_wf
    out_wfc_norm    1          # 选择要输出的能带（详见 ABACUS 手册）
    ```
+   >报错可以减少 mpirun -np 的参数
 
    `KPT` 文件只保留 Gamma 点 `0 0 0`。
 
